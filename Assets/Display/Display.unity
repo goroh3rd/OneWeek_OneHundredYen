@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 92688200}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2792978, y: 1.1727543, z: -0.10122187}
+  m_LocalPosition: {x: -1.369298, y: -1.7672455, z: -0.10122187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +232,7 @@ Transform:
   m_GameObject: {fileID: 173096231}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4707022, y: 1.1727543, z: -0.10122187}
+  m_LocalPosition: {x: 1.380702, y: -1.7672455, z: -0.10122187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -684,6 +684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileTrajectory: {fileID: 1152163193}
   launchPosition: {fileID: 1204093895}
+  totalization: {fileID: 1350548107}
+  numberOfProducts: 20
   products:
   - {fileID: 2501829250968423619, guid: f9a92654a10d72645bbef67b421c126c, type: 3}
   - {fileID: 2501829250968423619, guid: 335d0d67173f5ca439babccf8f219805, type: 3}
@@ -697,6 +699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350548105}
   - component: {fileID: 1350548106}
+  - component: {fileID: 1350548107}
   m_Layer: 0
   m_Name: TestShelve
   m_TagString: Untagged
@@ -713,7 +716,7 @@ Transform:
   m_GameObject: {fileID: 1350548104}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.56, y: -5.43, z: 0.10122187}
+  m_LocalPosition: {x: 3.65, y: -2.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -755,7 +758,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.118587494, y: 2.968793}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -765,8 +768,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.553029, y: 0.2884729}
+  m_Size: {x: 5.402299, y: 0.2884729}
   m_EdgeRadius: 0
+--- !u!114 &1350548107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350548104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f83328d1baf3514686a1b40ccc82e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxCollider2D: {fileID: 1350548106}
 --- !u!1 &2007461735
 GameObject:
   m_ObjectHideFlags: 0
