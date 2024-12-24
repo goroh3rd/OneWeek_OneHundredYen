@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71d351d3cc12e447910765e9b1fc321, type: 3}
+  m_Name: 2_Setsumei
+  m_EditorClassIdentifier: 
+  id: 2
+  answer: "\u53D6\u6271\u8AAC\u660E\u66F8\u3092\u3054\u89A7\u304F\u3060\u3055\u3044"
